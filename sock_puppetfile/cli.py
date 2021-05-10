@@ -1,4 +1,4 @@
-"""Console script for sock_puppetfile."""
+
 import argparse
 import logging
 import sys
