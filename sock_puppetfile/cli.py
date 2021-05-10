@@ -26,12 +26,7 @@ def main():
         default=logging.WARNING,
         help='enable verbose output',
     )
-    # parser.add_argument('-d', '--debug',
-    #     action='store_const',
-    #     dest="loglevel",
-    #     const=logging.DEBUG,
-    #     help='enable debug output',
-    # )
+
     args = parser.parse_args()
 
     logging.basicConfig(stream=sys.stderr, level=args.loglevel)
